@@ -17,11 +17,15 @@ public class AplicacaoListaDinamica {
         System.out.println("Conseguiu inserir? " + ls.insere(60));
         System.out.println("Conseguiu inserir? " + ls.insere(4,0));
         System.out.println("Conseguiu inserir? " + ls.insere(14,3));
-        
         System.out.println("Conseguiu inserir? " + ls.insere(34,5));
         
         ls.printLista();
-        
+
+        System.out.println("Conseguiu remover o primeiro? " + ls.remove(0));
+        System.out.println("Conseguiu remover o último? " + ls.remove(ls.tamanhoLista() - 1));
+        System.out.println("Conseguiu remover a posição 1? " + ls.remove(1));
+
+        ls.printLista();
     }
     
 }
