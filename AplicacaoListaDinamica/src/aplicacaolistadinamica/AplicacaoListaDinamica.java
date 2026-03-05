@@ -21,7 +21,9 @@ public class AplicacaoListaDinamica {
         
         ls.printLista();
 
-        System.out.println("Conseguiu remover o primeiro? " + ls.remove(0));
+        System.out.println("\nRemoção: ");
+
+        System.out.println("\nConseguiu remover o primeiro? " + ls.remove(0));
         System.out.println("Conseguiu remover o último? " + ls.remove(ls.tamanhoLista() - 1));
         System.out.println("Conseguiu remover a posição 1? " + ls.remove(1));
 
